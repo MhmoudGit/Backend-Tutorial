@@ -13,7 +13,7 @@ router.get('/:id', getSingleWorkout)
 router.post('/', createWorkout)
 
 //Delete a workout
-router.delete('/', deleteWorkout)
+router.delete('/:id', deleteWorkout)
 
 //Update a workout
 router.patch('/', (req, res) => {
