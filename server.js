@@ -3,7 +3,6 @@ const express = require('express')
 const workoutRoutes = require('./routes/workouts')
 const mongoose = require('mongoose')
 
-
 //express app
 const app = express()
 //enable cors
