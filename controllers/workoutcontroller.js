@@ -83,6 +83,8 @@ const updateWorkout = async (req, res) => {
 	}
 }
 
+
+////exporting
 module.exports = {
 	createWorkout,
 	getAllWorkouts,
